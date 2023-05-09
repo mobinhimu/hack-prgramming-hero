@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming Hero</title>
+    <link
+      rel="shortcut icon"
+      href="https://web.programming-hero.com/static/media/ph_logo.cda7f338.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .panel__active {
+        height: 70;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header section start  -->
+    <header>
+      <div class="container">
+        <div class="heder-wrapper">
+          <div class="left-header">
+            <a target="_blank" href="https://www.facebook.com/sdmmobin">
+              <img
+                src="https://web.programming-hero.com/static/media/ph_logo.cda7f338.svg"
+                alt="Programming Hero Logo"
+              />
+              <a target="_blank" href="https://www.facebook.com/sdmmobin"
+                >Programming Hero</a
+              >
+            </a>
+          </div>
+          <li><a href="#"></a></li>
+          <div class="right-header">
+            <a target="_blank" href="https://www.facebook.com/sdmmobin"
+              >Mobin Himu</a
+            >
+            <img src="./img/Web Logo.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header section end  -->
+    <main>
+      <section>
+        <div class="container">
+          <div class="content-wrap">
+            <div class="left-content">
+              <img
+                id="thumbnail"
+                src="./img/thumbnail.jpg"
+                alt="Thumbnail Image"
+              />
+              <p id="title"></p>
+              <p id="desc"></p>
+            </div>
+
+            <div class="right-content">
+              <div class="pending">
+                <h1>Your <span class="status">Pending</span> Modules !</h1>
+
+                <div class="label__data">
+                  <label for="name">
+                    <div class="header">
+                      <input type="checkbox" name="name" id="name" />
+                      <p>Milestone 0: Orientation</p>
+                    </div>
+
+                    <div class="panel">
+                      <ul>
+                        <li>Module -1: Welcome Video</li>
+                        <li>
+                          Module 0: Orientation. How to get ready for this
+                          course
+                        </li>
+                      </ul>
+                    </div>
+
+                    <i class="fa-solid fa-angle-down angle__down"></i>
+                  </label>
+                </div>
+              </div>
+
+              <div class="toggle-btn">
+                <button><i class="fa-solid fa-angle-down"></i></button>
+              </div>
+
+              <div class="pending completed">
+                <h1>Your <span class="status">Finished</span> Modules !</h1>
+              </div>
+
+              <div class="toggle-btn">
+                <button><i class="fa-solid fa-angle-down"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <small
+          >This Application Made By
+          <a href="https://www.facebook.com/sdmmobin">😀 Mobin Himu</a></small
+        >
+      </div>
+    </footer>
+
+    <!-- <script src="./script.js"></script> -->
+    <script src="./design.js"></script>
+  </body>
+</html>
