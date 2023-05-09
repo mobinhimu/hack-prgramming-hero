@@ -8,7 +8,7 @@ const completed = document.querySelector(".completed");
 // fetch data
 const gettingProgrammingHeroData = async function () {
   const res = await fetch(
-    "http://openapi.programming-hero.com/api/course/curriculum"
+    "https://openapi.programming-hero.com/api/course/curriculum"
   );
   const datas = await res.json();
 
